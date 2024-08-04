@@ -36,6 +36,12 @@ header {
     color: #d2b48c;
 }
 
+.about-photo {
+    margin-left: 400px;
+    border-radius: 8px;
+}
+
+
 .section-image {
     width: 100%;
     height: 66.67vh; /* 2/3 страницы */
@@ -69,8 +75,6 @@ footer {
 
 
 
-
-
 .about-photo, .product-photos img {
     max-width: 100%;
     height: auto;
@@ -84,7 +88,7 @@ footer {
 .product-photos {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .product-photos img {
