@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кав'ярня "Coffeera"</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="center-nav">
+            <ul>
+                <li><a href="#home">Домашня</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#products">Продукти</a></li>
+                <li><a href="#contacts">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="section-image" style="background-image: url('images/slide1_image.jpg');"></div>
+    <section id="home">
+        <h2>Ласкаво просимо!</h2>
+        <p>Наша кав'ярня - це місце, де ви можете насолодитися ароматною кавою та затишною атмосферою. Ми раді вітати вас щодня!</p>
+    </section>
+    
+    <section id="about">
+        <h2>Про нас</h2>
+        <p>Кав'ярня "Coffeera" була заснована у 2020 році з метою створити унікальне місце для любителів кави. Наша історія почалася з маленької мрії - подарувати людям можливість насолодитися якісною кавою в затишній обстановці. Ми пишаємося тим, що використовуємо тільки відібрані зерна та готуємо каву з любов'ю та увагою до кожної деталі.</p>
+        <p>Кожен ранок у нас починається з посмішок та аромату свіжомеленої кави. Ми прагнемо створити атмосферу, в якій кожен гість відчує себе як вдома. Натхнення для нас - це не просто слово, це наша філософія, яку ми втілюємо в кожному напої та страві.</p>
+        <img src="path/to/your/image.jpg" alt="Кав'ярня" class="about-photo fade-in">
+    </section>
+    
+    <section id="products">
+        <h2>Продукти</h2>
+        <div class="product-photos">
+            <div class="product-container">
+                <img src="images/esp.png" alt="Продукт 1 Перед" class="up_image">
+                <h3>Еспресо</h3>
+                <p>Ціна: 60 грн</p>
+                <button class="add-to-cart">Додати в корзину</button>
+            </div>
+            <div class="product-container">
+                <img src="images/rastvorimiy.png" alt="Продукт 2 Перед" class="up_image">
+                <h3>Кава розчинна </h3>
+                <p>Ціна: 40 грн</p>
+                <button class="add-to-cart">Додати в корзину</button>
+            </div>
+            <div class="product-container">
+                <img src="images/tea.png" alt="Продукт 3 Перед"  class="up_image">
+                <h3>Чай з шматочками полуниці</h3>
+                <p>Ціна: 70 грн</p>
+                <button class="add-to-cart">Додати в корзину</button>
+            </div>
+        </div>
+        
+    </section>
+    
+    <section id="contacts">
+        <h2>Контакти</h2>
+        <p>Ми знаходимося за адресою:</p>
+        <p>вул. Кавова, буд. 123, м. Київ</п>
+        <p>Телефон: +38 (123) 456-78-90</п>
+        <p>Email: info@nathnennia.ua</p>
+        <p>Працюємо щодня з 8:00 до 22:00</п>
+        <form>
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Повідомлення:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Надіслати</button>
+        </form>
+    </section>
+    
+    <footer>
+        <div class="social-icons">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/inst.png" alt="Instagram"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+        </div>
+        <p>&copy; 2024 Кав'ярня "Coffeera. Всі права захищені.</п>
+    </footer>
+
+    <button id="scrollTopBtn" title="Наверх">&#8679;</button>
+</body>
+</html>
